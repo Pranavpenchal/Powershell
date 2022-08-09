@@ -1,0 +1,34 @@
+https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-8.2.0
+
+https://www.makeuseof.com/install-set-up-azure-cli-on-ubuntu/
+
+
+code for powershell :
+
+foreach($i in 0..$num){
+
+if($i%2 -eq 0){
+
+New-Item -Path C:\powershell\floder1\$i.txt -ItemType file -Value "welcome to txt file"
+
+
+
+}
+
+else {
+
+
+
+New-Item -Path C:\powershell\floder2\$i.doc -ItemType file -Value "welcome to wordpad"
+
+}
+
+
+
+
+}
+
+Link for jenkins install
+--------------------------
+
+https://linuxize.com/post/how-to-install-jenkins-on-ubuntu-18-04/
